@@ -43,7 +43,7 @@ function ProductScreen({ match, history }) {
                                         </ListGroup.Item>
 
                                         <ListGroup.Item>
-                                            Price : ${product.price}
+                                            Price : Php{product.price}
                                         </ListGroup.Item>
 
                                         <ListGroup.Item>
@@ -58,7 +58,7 @@ function ProductScreen({ match, history }) {
                                                 <Row>
                                                     <Col>Price:</Col>
                                                     <Col>
-                                                        <strong>${product.price}</strong>
+                                                        <strong>Php{product.price}</strong>
                                                     </Col>
                                                 </Row>
                                             </ListGroup.Item>

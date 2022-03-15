@@ -54,7 +54,7 @@ function CartScreen({ match, location, history }) {
                                         </Link>
                                     </Col>
                                     <Col md={2}>
-                                        ${item.price}
+                                        Php{item.price}
                                     </Col>
                                     <Col md={3}>
                                         <Form.Control
@@ -95,7 +95,7 @@ function CartScreen({ match, location, history }) {
                                 acc + item.qty, 0
                             )}) Items
                             </h2>
-                            ${cartItems.reduce((acc, item) => acc + item.qty * item.price, 0).toFixed(2)}
+                            Php{cartItems.reduce((acc, item) => acc + item.qty * item.price, 0).toFixed(2)}
                         </ListGroup.Item>
 
                     </ListGroup>

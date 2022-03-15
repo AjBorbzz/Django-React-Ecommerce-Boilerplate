@@ -145,7 +145,7 @@ function ProfileScreen({ history }) {
                                 <tr key={order._id}>
                                     <td>{order._id}</td>
                                     <td>{order.createdAt.substring(0, 10)}</td>
-                                    <td>$ {order.totalPrice}</td>
+                                    <td>Php {order.totalPrice}</td>
                                     <td>{order.isPaid ? order.paidAt.substring(0, 10) : (
                                         <i className='fas fa-times' style={{ color: 'red' }}></i>
                                     )

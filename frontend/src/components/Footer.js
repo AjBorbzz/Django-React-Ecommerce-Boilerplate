@@ -7,7 +7,7 @@ function Footer() {
             <Container>
                 <Row>
                     <Col className="text-center py-3">
-                        Copyright &copy; ProShop
+                        Copyright &copy; AbrahamConst
                         </Col>
                 </Row>
             </Container>
